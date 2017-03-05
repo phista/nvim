@@ -1,8 +1,13 @@
-" nvimrc test
+" nvimrc 
+
+" Pathogen Plugin Manager
+execute pathogen#infect()
+
 
 " colors
 colorscheme molokai
 syntax enable
+filetype plugin indent on	" no idea what this does
 
 " spaces & tabs
 set tabstop=4
